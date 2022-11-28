@@ -1,0 +1,21 @@
+.info-box{
+    padding:20px
+}
+.info-box box-icon{
+    border-radius:50px;
+    color:red;
+   float: left;
+    border: 1px solid rgb(240, 235, 235);
+}
+.contents-info{
+    margin-bottom: 30px;
+}
+.form{
+    padding: 30px;
+}
+.form .data{
+    padding: 9px;
+    border: 1px solid  #ced4da;
+   
+    margin:10px
+}
