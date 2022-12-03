@@ -19,3 +19,7 @@
    
     margin:10px
 }
+.contents{
+    max-width: 800px;
+    margin: 0 auto;
+}
