@@ -1,11 +1,16 @@
 
 
 function fun() {
-const name= document.getElementsByClassName(".data name").value;
-const email= document.getElementsByClassName(".data email").value;
-const message= document.getElementsByClassName(".data message").value;
-const subject= document.getElementsByClassName(".data subject").value;
+    console.log("click");
+var name= document.getElementById("name").value;
+var email= document.getElementById("email").value;
+var message= document.getElementById("message").value;
+var subject= document.getElementById("subject").value;
 
-
-    alert ("name:" + name);
- }
+if(name,email, message,subject ==true){
+    alert("name:" + name+ "," + "Email:"+ email + "subject" + subject +"message" + message );
+}else{
+    alert("Name required");
+}
+}
+// 
