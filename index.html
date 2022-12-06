@@ -23,51 +23,61 @@
             <div class="contents-info row  ">
 
                 <div class=" col-md-4">
-                    <div class=" info-box shadow bg-white ">
-
-                        <box-icon class="shadow" type='solid' name='edit-location'></box-icon>
-                       <div class="info-box-address">
-                        <h3 class="d-inline ms-4">Our address </h3> 
-                        <p>sindhuli</p></div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class=" info-box shadow bg-white">
-                        <div class="rounded">
-                            <box-icon class="shadow" type='solid' name='edit-location'></box-icon>
-
-                            <h3 class="d-inline">Email US
-                            </h3>
-                            <p>nishakarki@gmail.com</p>
+                    <div class=" info-box gx-2 shadow bg-white ">
+                        <div class="row">
+                            <div class="icon col-md-2 shadow">
+                                <box-icon class="icon-address" type='solid' name='edit-location'></box-icon>
+                            </div>
+                            <div class="info-box-address col-sm-10">
+                                <h3 class="d-inline ">Our address </h3>
+                                <p class="mt-2">Jhanghajholi,03,sunkoshi VDC, Sinhuli, Janakpur Zone , Kathmandu</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="info-box shadow bg-white">
-                        <div class="rounded">
-                            <box-icon class="shadow" type='solid' name='edit-location'></box-icon>
+                <div class=" col-md-4">
+                    <div class=" info-box shadow  bg-white ">
+                        <div class="row">
+                            <div class="icon col-md-2 shadow">
+                                <box-icon class="icon-address" type='solid' name='envelope'></box-icon>
+                            </div>
+                            <div class="info-box-address col-sm-10">
+                                <h3 class="d-inline ">Email Us
+                                </h3>
+                                <p class="mt-2 ">Karkinisha@gmail.com contactus@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                            <h3 class="d-inline">Contact Us
-
-                            </h3>
-                            <p>01-2586482</p>
+                <div class=" col-md-4">
+                    <div class=" info-box shadow  bg-white ">
+                        <div class="row">
+                            <div class="icon col-md-2 shadow">
+                                <box-icon class="icon-address" type='solid' name='phone-call'></box-icon>
+                            </div>
+                            <div class="info-box-address col-sm-10">
+                                <h3 class="d-inline ">Contact Us
+                                </h3>
+                                <p class="mt-2 ">+977 9813443883 <br> +977 9765843465</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="form shadow bg-white">
                 <div class="row">
-                    <div class="col-md-6"> <input class="data name w-100" id="name"    type="text " placeholder="Your Name"></div>
-                    <div class="col-md-6"><input class="data email w-100 " id="email" type="email " placeholder="Email"></div>
+                    <div class="col-md-6"> <input class="data name w-100" id="name" value="" type="text "
+                            placeholder="Your Name" required></div>
+                    <div class="col-md-6"><input class="data email w-100 " id="email" type="email " value=""
+                            placeholder="Email"></div>
                 </div>
-                <input class=" data subject w-100" type="text " placeholder="Subject">
-                <textarea class="data message w-100" rows="10" placeholder="Message"></textarea>
-                <div class="text-center"><input type="button" class="bg-warning text-white border-0 p-2" value="Send Message" onclick="fun()"></button> </div>
-                
+                <input class=" data subject w-100" type="text " id="subject" value="" placeholder="Subject">
+                <textarea class="data message w-100" rows="10" id="message" value="" placeholder="Message"></textarea>
+                <div class="text-center"><input type="button" class="bg-warning text-white border-0 p-2"
+                        value="Send Message" onclick="fun()"></button> </div>
+
             </div>
         </div>
     </div>>
